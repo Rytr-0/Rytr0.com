@@ -47,6 +47,10 @@ summary = ' '
 
   `git push -u origin main`
 
+- push the changes to the added repo **force**:
+
+`git push origin master --force`
+
 - Update Local Repositories
 
   `git fetch --all`
