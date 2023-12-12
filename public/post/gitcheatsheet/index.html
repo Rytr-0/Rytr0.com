@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>Git Cheat Sheet &ndash; Rytr0</title>
+<meta name="description" content="Making life easier one line of code at a time.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="https://rytr0.com/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="https://rytr0.com/css/risotto.css">
+<link rel="stylesheet" href="https://rytr0.com/css/custom.css">
+
+
+<link rel="icon" href="https://rytr0.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="https://rytr0.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://rytr0.com/favicon-16x16.png">
+<link rel="apple-touch-icon" href="https://rytr0.com/apple-touch-icon.png">
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="https://rytr0.com" class="page__logo-inner">Rytr0</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://rytr0.com/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://rytr0.com/homepage/" title="Homepage">Homepage</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://rytr0.com/post/" title="Posts">Posts</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://rytr0.com/resources/" title="Resources">Resources</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Git Cheat Sheet</h1>
+    </header>
+    
+    <div class="content__body">
+        <blockquote>
+</blockquote>
+<h1 id="commands">Commands:</h1>
+<blockquote>
+</blockquote>
+<h2 id="branches">Branches:</h2>
+<blockquote>
+</blockquote>
+<ul>
+<li>
+<p>list the brnaches:</p>
+<p><code>git branch</code></p>
+</li>
+<li>
+<p>swtich branch:</p>
+<p><code>git checkout other-branch</code></p>
+</li>
+<li>
+<p>rename the local branch:</p>
+<p><code>git branch -m master main</code></p>
+</li>
+<li>
+<p>delete a local branch:</p>
+</li>
+</ul>
+<p><code>git branch -d branch_name</code></p>
+<ul>
+<li>delete a local branch but <strong>force</strong>:</li>
+</ul>
+<p><code>git branch -D branch_name</code></p>
+<ul>
+<li>to delete a remote branch:</li>
+</ul>
+<p><code>git push origin --delete &lt;remote-branch-name&gt;</code></p>
+<h2 id="merge">Merge:</h2>
+<ul>
+<li>Merge a specific file from another branch to the master branch:</li>
+</ul>
+<p><code>git checkout feature-branch -- example.txt</code></p>
+<h2 id="push">Push:</h2>
+<ul>
+<li>
+<p>push the changes to an added repo:</p>
+<p><code>git push -u origin main</code></p>
+</li>
+<li>
+<p>Update Local Repositories</p>
+<p><code>git fetch --all</code></p>
+</li>
+</ul>
+<h2 id="history">History:</h2>
+<ul>
+<li>Basic Commit History:</li>
+</ul>
+<p><code>git log</code></p>
+<ul>
+<li>Limit the Number of Commits:</li>
+</ul>
+<p><code>git log -n 5</code></p>
+<ul>
+<li>Detailed Commit Information:</li>
+</ul>
+<p><code>git log -p</code></p>
+<ul>
+<li>filter by file:</li>
+</ul>
+<p><code>git log -- filename.txt</code></p>
+<h2 id="other">Other:</h2>
+<ul>
+<li>check your ssh connection to github:</li>
+</ul>
+<p><code>ssh -T git@github.com</code></p>
+<ul>
+<li>Check the Current Remote URL:</li>
+</ul>
+<p><code>git remote -v</code></p>
+<ul>
+<li>Change/Set remote URL but HTTP:</li>
+</ul>
+<p><code>git remote add origin https://github.com/username/repository.git</code></p>
+<ul>
+<li>Change/Set remote URL but SSH:</li>
+</ul>
+<p><code>git remote set-url origin git@github.com:username/repository.git</code></p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <img class="about__logo" src="https://rytr0.com/images/rice.svg" alt="Logo">
+<h1 class="about__title">Rytr0</h1>
+<p class="about__description">Making life easier one line of code at a time.</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/Rytr-0" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="rytr0iscool@skiff.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.youtube.com/@Rytr-0" rel="me" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p> </p>
+    
+        <p>
+            
+            2023-12-12
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
