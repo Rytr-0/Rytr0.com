@@ -6,39 +6,8 @@
     <description>Recent content in Posts on Rytr0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Dec 2023 10:42:12 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 23:18:48 -0500</lastBuildDate>
     <atom:link href="https://rytr0.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git Cheat Sheet</title>
-      <link>https://rytr0.com/post/gitcheatsheet/</link>
-      <pubDate>Tue, 12 Dec 2023 10:42:12 -0500</pubDate>
-      <guid>https://rytr0.com/post/gitcheatsheet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VimCheatSheet</title>
-      <link>https://rytr0.com/post/vimcheatsheet/</link>
-      <pubDate>Sat, 09 Dec 2023 06:00:08 -0500</pubDate>
-      <guid>https://rytr0.com/post/vimcheatsheet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RsyncCheatSheet</title>
-      <link>https://rytr0.com/post/rsynccheatsheet/</link>
-      <pubDate>Sat, 09 Dec 2023 05:48:32 -0500</pubDate>
-      <guid>https://rytr0.com/post/rsynccheatsheet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SshCheatSheet</title>
-      <link>https://rytr0.com/post/sshcheatsheet/</link>
-      <pubDate>Sat, 09 Dec 2023 04:59:39 -0500</pubDate>
-      <guid>https://rytr0.com/post/sshcheatsheet/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;SSH commands for a quick copy &amp;amp; paste&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
     <item>
       <title>Donate</title>
       <link>https://rytr0.com/post/donate/</link>
