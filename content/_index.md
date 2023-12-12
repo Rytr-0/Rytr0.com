@@ -6,13 +6,15 @@ description = ''
 summary = ' '
 +++
 
-Hello, I'm Rytr0, check the [about me](/about)
+Hello World
+
+I'm Rytr0, check the [about me](/about)
 
 I post everything linux
 
-For posts/updates blog posts and rants [posts](/post)
+For updates/blog posts and rants [here](/post)
 
-I also have cheat sheets because we all forget commands and end up reading a whole article for them.
+I also have cheat sheets because *we all forget commands* and end up reading a whole article looking for them.
 
 The cheat sheets are *not articles*.
 
